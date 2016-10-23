@@ -55,6 +55,23 @@
             return Math.ceil(Math.random()*(end-start)+start);
         }
     </script>
+    
+   <script>
+       
+    var arr=[50,20,70,99,88,77];
+    for (var i=0; i<arr.length; i=i+1){
+        if (arr[i]<60){
+            d3.select('body').append('div').text(arr[i]).style({color:"red"});   
+        }
+        else {
+           d3.select('body').append('div').text(arr[i]);   
+        } 
+        }
+    
+    
+    
+    
+    </script>
 </body>
 
 </html>
